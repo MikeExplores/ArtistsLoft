@@ -1,0 +1,44 @@
+body, html {
+	height: 100%;
+	font-family: 'Dosis', sans-serif;
+	font-size: 1vw;
+}
+
+h1 {
+	font-family: 'Dancing Script', cursive;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.bars {
+    background-color: rgba(0,0,0,0.6);
+    color: white;
+}
+
+nav .navbar-nav li a{
+  color: white !important;
+  font-size: 2vw;
+  }
+
+.bg-image-full {
+	height: 100%;
+	width: 100%;
+	margin: auto;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.landing-title {
+	text-align: center;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+	color: white;
+	font-size: 10vw;
+	text-shadow: 2px 2px 8px #FF0000;
+}

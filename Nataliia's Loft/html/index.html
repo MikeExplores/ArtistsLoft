@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Nataliia's Loft</title>
+
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Dosis&family=Open+Sans&display=swap" rel="stylesheet"> 
+
+  </head>
+
+  <body>
+
+    <nav class="navbar-expand-lg fixed-top bars">
+      <div class="container-fluid d-inline-flex bd-highlight">
+        
+        <a class="navbar-brand" href="index.html"><img src="../img/logo.png" alt="Logo"></a>
+
+        <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+
+            <!-- Artwork Dropdown -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="artwork.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Artwork
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Originals</a></li>
+                <li><a class="dropdown-item" href="#">Prints</a></li>
+                <li><a class="dropdown-item" href="#">Fashion</a></li>
+                <li><a class="dropdown-item" href="#">Gifts</a></li>
+              </ul>
+            </li>
+
+            <!-- About Dropdown -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                About
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Bio</a></li>
+                <li><a class="dropdown-item" href="#">Mission</a></li>
+                <li><a class="dropdown-item" href="#">Commision</a></li>
+                <li><a class="dropdown-item" href="#">Shipping</a></li>
+                <li><a class="dropdown-item" href="#">FAQ</a></li>
+                <li><a class="dropdown-item" href="#">Media</a></li>
+              </ul>
+            </li>
+
+            <!-- Shopping Cart Icon -->
+            <li class="nav-item me-3 me-lg-0">
+              <a class="nav-link" href="#">
+                <i class="fas fa-shopping-cart"></i>Cart
+              </a>
+            </li>
+
+            <!-- Login Dropdown -->
+            <li class="nav-item me-3 me-lg-0 dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-mdb-toggle="dropdown" aria-expanded="false">
+                <i class="fas fa-user"></i>Login
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <form class="px-4 py-3">
+                  <div class="form-group">
+                    <label for="exampleDropdownFormEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleDropdownFormPassword1">Password</label>
+                    <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password">
+                  </div>
+                  <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                    <label class="form-check-label" for="dropdownCheck">
+                      Remember me
+                    </label>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Sign in</button>
+                </form>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">New around here? Sign up</a>
+                <a class="dropdown-item" href="#">Forgot password?</a>
+              </ul>
+            </li>
+
+          </ul>
+
+          <!-- Search bar -->
+          <form class="d-inline-flex" id="searchbox">
+            <input class="form-control form-control-sm me-1" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-primary btn-sm" type="submit">Search</button>
+          </form>
+
+
+        </div>
+      </div>
+    </nav>
+    
+    <!-- Landing page image and title -->
+    <header class="bg-image-full" style="background-image: url(../img/abstract.jpg);">
+      <h1 class="landing-title">Nataliia's Loft</h1>
+    </header>
+
+    <!-- Content section -->
+    <section class="py-5">
+      <div class="container">
+        <h1>Section Heading</h1>
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, suscipit, rerum quos facilis repellat architecto commodi officia atque nemo facere eum non illo voluptatem quae delectus odit vel itaque amet.</p>
+      </div>
+    </section>
+
+    <!-- Self portrait image and quote -->
+    <div class="bg-image-full" style="background-image: url(../img/portrait.png);">
+    </div>
+
+    <!-- Content section -->
+    <section class="py-5">
+      <div class="container">
+        <h1>Section Heading</h1>
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, suscipit, rerum quos facilis repellat architecto commodi officia atque nemo facere eum non illo voluptatem quae delectus odit vel itaque amet.</p>
+      </div>
+    </section>
+
+<!-- Carousel -->
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="5000">
+          <img src="../img/paint.jpg" class="d-block w-100" alt="">
+        </div>
+        <div class="carousel-item" data-bs-interval="5000">
+          <img src="../img/urban.jpg" class="d-block w-100" alt="">
+        </div>
+        <div class="carousel-item" data-bs-interval="5000">
+          <img src="../img/wild.jpg" class="d-block w-100" alt="">
+        </div>
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"  data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"  data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- Footer -->
+    <footer class="py-1 fixed-bottom bars">
+      <div class="container-fluid">    
+        <div class="row">
+          <div class="col-sm-4" align="center">
+            <p class="m-0">Copyright &copy;</p>
+          </div>
+          <div class="col-sm-4" align="center">
+            <p class="m-0">1% for Nonprofits</p>
+          </div>
+          <div class="col-sm-4" align="center">
+            <p class="m-0">(Social Media Handles)</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="../js/bootstrap.min.js"></script>
+
+  </body>
+
+</html>
